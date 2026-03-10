@@ -166,14 +166,14 @@ programa
     leia(numeros[i])
     se (numeros[i] < 72) 
     soma = soma + numeros[i]          
-   }        // Exibe todos os valores
+   }       
     escreva("\nValores informados: ")
     para (i = 0; i < 6; i++)
    {
     escreva(numeros[i])
     se (i < 5) 
     escreva(", ")      
-   }  // Exibe a soma
+   } 
     escreva("\nSoma dos valores inferiores a 72: ", soma)
     }
     funcao media_de_10()
