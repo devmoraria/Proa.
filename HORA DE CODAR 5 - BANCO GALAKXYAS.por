@@ -95,7 +95,7 @@ programa
 			escreva("\n--- EXTRATO RECENTE ---\n")
 			se (saldo == 0) {
 			escreva("- Sem movimentações recentes.\n")} senao {
-			escreva("- Saldo base de conta existente: R$ 150,00\n")
+			escreva("- Saldo base de conta existente: ",saldo,"\n")
 			}
 			escreva("------------------------------------------\n")} senao {
 			verExtrato()}
